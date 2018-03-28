@@ -1,0 +1,13 @@
+# Ignore all files inside the data:// proxy...
+Data/**
+# ... except dummy files to commit directories
+!Data/.gitkeep
+# Local preview of README.md
+README.html
+
+# Auto ####
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.httr-oauth
